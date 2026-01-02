@@ -1,0 +1,23 @@
+:root {
+  --bg: #140E10;
+  --surface: #22171B;
+  --text: #F9F0F1;
+  --muted: #C5AEB1;
+
+  --accent: #F4726A; /* Salmón */
+
+  /* LINKS */
+  --link: #FDB4A9;
+  --link-hover: #F5EFE6;
+
+  --btn-text: #140E10;
+
+  --glow: rgba(244,114,106,0.35);
+  --outline: rgba(244,114,106,0.18);
+
+  --hero-gradient: radial-gradient(
+    circle at top,
+    #3d1f23,
+    #140E10
+  );
+}

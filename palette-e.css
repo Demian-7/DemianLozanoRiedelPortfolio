@@ -1,0 +1,23 @@
+:root {
+  --bg: #0E0A14;
+  --surface: #1A1326;
+  --text: #F7F3FF;
+  --muted: #B8AFC9;
+
+  --accent: #FF7A6E;
+
+  /* LINKS */
+  --link: #FFC4A3;
+  --link-hover: #F6EFE6;
+
+  --btn-text: #0E0A14;
+
+  --glow: rgba(255,122,110,0.35);
+  --outline: rgba(255,122,110,0.18);
+
+  --hero-gradient: radial-gradient(
+    circle at top,
+    #3a1d1a,
+    #0E0A14
+  );
+}
