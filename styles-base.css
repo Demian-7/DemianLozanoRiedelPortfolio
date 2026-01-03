@@ -187,3 +187,158 @@ h3 { font-size: 2rem; margin-bottom: 2rem; }
   transform: translateY(0);
   transition: all 0.7s ease;
 }
+
+
+
+/* =========================
+   PROJECTS SECTION
+========================= */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* =========================
+   PROJECTS GRID
+========================= */
+
+.projects-grid {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 2rem;
+  width: 100%;
+}
+
+.projects-row {
+  display: flex;
+  justify-content: center; /* centra el BLOQUE */
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+/* =========================
+   PROJECT CARD
+========================= */
+
+.project-card {
+  flex: 0 1 320px; /* base flexible */
+  max-width: 360px;
+}
+
+
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px var(--glow);
+}
+
+/* =========================
+   IMAGE CAPSULE
+========================= */
+
+.project-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background: #000;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Placeholder image */
+.placeholder-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.05),
+    rgba(255,255,255,0.02)
+  );
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.project-content {
+  padding: 1.5rem;
+}
+
+.project-role {
+  font-size: 0.85rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.project-card ul {
+  margin: 0 0 1rem 1rem;
+  padding: 0;
+}
+
+.project-card li {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* =========================
+   LINKS
+========================= */
+
+.project-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--link);
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+}
+
+.project-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: var(--link);
+  transition: width 0.3s ease;
+}
+
+.project-link:hover::after {
+  width: 100%;
+}
+
+/* =========================
+   PLACEHOLDER
+========================= */
+
+.project-card.placeholder {
+  opacity: 0.75;
+}
+
+
