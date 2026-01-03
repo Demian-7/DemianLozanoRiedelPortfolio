@@ -130,6 +130,18 @@ h3 {
   box-shadow: 0 0 0 1px var(--outline);
 }
 
+.featured-project {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.featured-project {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3rem;
+}
+
+
 
 .featured-media {
   display: grid;
@@ -168,10 +180,11 @@ h3 {
 }
 
 .featured-content {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 
 
