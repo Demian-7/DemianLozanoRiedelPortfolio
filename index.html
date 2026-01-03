@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <title>Demian Lozano Riedel | Portfolio</title>
 
-  <!-- 1️⃣ BASE: layout + animaciones -->
+  <!-- 1️⃣ BASE: layout + animations -->
   <link rel="stylesheet" href="./styles-base.css">
 
-  <!-- 2️⃣ PALETA (CAMBIAR SOLO ESTE ARCHIVO) -->
+  <!-- 2️⃣ PALETTE (CHANGE ONLY THIS FILE) -->
   <link rel="stylesheet" href="./palette-k.css">
 </head>
 
@@ -19,162 +19,189 @@
   <header class="hero reveal">
     <div class="hero-content">
       <h1>Demian Lozano Riedel</h1>
-      <h2>Game Developer · Diseñador · Programador</h2>
+      <h2>Game Designer · Programmer · IT Technician</h2>
       <p>
-        Diseño y Desarrollo de experiencias interactivas Desarrollo experiencias interactivas combinando programación,
-        diseño y arte desde una perspectiva integral.
+        Design and development of interactive experiences with a strong focus on player experience,
+        combining programming, design, and art from a holistic perspective.
       </p>
 
       <div class="hero-actions">
-        <a href="#projects" class="btn primary">Ver proyectos</a>
-        <a href="#contact" class="btn secondary">Contacto</a>
+        <a href="#projects" class="btn primary">View projects</a>
+        <a href="#contact" class="btn secondary">Contact</a>
       </div>
     </div>
   </header>
 
 
 
-   <!-- PROYECTOS -->
+  <!-- PROJECTS -->
   <section class="section reveal" id="projects">
-  <h3 class="section-title">Proyectos</h3>
+    <h3 class="section-title">Projects</h3>
+
+
+    <!-- FEATURED PROJECT -->
+    <div class="featured-project">
+
+      <div class="featured-media">
+        <div class="featured-video">
+          <iframe
+            src="https://www.youtube.com/embed/z0aa3FqLI_Q"
+            title="Featured Project Video"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="featured-image">
+          <img src="./images/featured-preview.png" alt="Featured project preview">
+        </div>
+      </div>
+
+      <div class="featured-content">
+        <h4>Jigsaw Jab</h4>
+        <p class="project-role">Role: Game Designer / Programmer</p>
+
+        <p class="project-description">
+          "Jigsaw Jab" is a 2D top-down, wave-based action game set in a dreamlike world,
+          featuring an oneiric-toon pixel art style. The player controls a floating hand
+          that must defeat rogue puzzle pieces that have come to life and then reassemble
+          them to complete the jigsaw puzzle before being destroyed.
+        </p>
+
+        <ul>
+          <li>Combat and progression mechanics design</li>
+          <li>Difficulty and pacing balancing</li>
+          <li>Level design</li>
+        </ul>
+
+        <a class="project-link"
+           href="https://store.steampowered.com/app/4107020/Jigsaw_Jab/?curator_clanid=45013169"
+           target="_blank">
+          View project
+        </a>
+      </div>
+    </div>
+
 
 
     <div class="projects-grid">
 
+      <!-- Project 2 -->
       <article class="project-card">
-        <!-- Proyecto 1 -->
-        
-          <div class="project-image">
-            <img src="./images/jigsaw-jab.jpg" alt="Jigsaw Jab splash screen">
-          </div>
+        <div class="project-image">
+          <img src="./images/the-mechamorphosis.jpg" alt="The Mechamorphosis splash screen">
+        </div>
 
-          <div class="project-content">
-            <h4>Jigsaw Jab</h4>
-            <p class="project-role">Rol: Game Designer & Programmer</p>
+        <div class="project-content">
+          <h4>The Mechamorphosis</h4>
+          <p class="project-role">Role: Game Designer / Narrative Designer</p>
 
-            <p class="project-description">
-              Juego de acción top-down donde controlás una mano flotante enfrentando
-              oleadas de piezas de rompecabezas en un entorno surrealista.
-            </p>
+          <p class="project-description">
+            A science fiction visual novel that explores dehumanization in a technocratic world,
+            inspired by Kafka.
+          </p>
 
-            <ul>
-              <li>Diseño de mecánicas de combate</li>
-              <li>Diseño de niveles</li>
-              <li>Balanceo de dificultad y ritmo</li>
-              <li>Sistemas de progresion</li>
-            </ul>
+          <ul>
+            <li>Branching narrative design</li>
+            <li>Decision-making systems</li>
+            <li>Technical writing and scripting</li>
+          </ul>
 
-            <a class="project-link" href="https://fuenteki.itch.io/jigsaw-jab" target="_blank">
-              Ver en itch.io
-            </a>
-          </div>
-        
+          <a class="project-link"
+             href="https://fuenteki.itch.io/the-mechamorphosis"
+             target="_blank">
+            View on itch.io
+          </a>
+        </div>
       </article>
 
-      <!-- Proyecto 2 -->
-    <article class="project-card">
-      <div class="project-image">
-        <img src="./images/the-mechamorphosis.jpg" alt="The Mechamorphosis splash screen">
-      </div>
+      <!-- Project 3 -->
+      <article class="project-card">
+        <div class="project-image">
+          <img src="./images/snowballing.jpg" alt="Snowballing splash screen">
+        </div>
 
-      <div class="project-content">
-        <h4>The Mechamorphosis</h4>
-        <p class="project-role">Rol: Game Designer / Narrative Designer</p>
+        <div class="project-content">
+          <h4>Snowballing</h4>
+          <p class="project-role">Role: Gameplay Programmer / System Designer</p>
 
-        <p class="project-description">
-          Novela visual de ciencia ficción que explora la deshumanización
-          en un mundo tecnocrático, inspirada en Kafka.
-        </p>
+          <p class="project-description">
+            A top-down action game with roguelite progression where the player controls
+            a snow golem surviving in a hostile environment.
+          </p>
 
-        <ul>
-          <li>Diseño narrativo ramificado</li>
-          <li>Sistemas de decisiones</li>
-          <li>Guión técnico y escritura</li>
-        </ul>
+          <ul>
+            <li>Gameplay programming</li>
+            <li>AI and systems design</li>
+            <li>Difficulty and progression balancing</li>
+          </ul>
 
-        <a class="project-link" href="https://fuenteki.itch.io/the-mechamorphosis" target="_blank">
-          Ver en itch.io
-        </a>
-      </div>
-    </article>
+          <a class="project-link"
+             href="https://fuenteki.itch.io/snowballing"
+             target="_blank">
+            View on itch.io
+          </a>
+        </div>
+      </article>
 
-    <!-- Proyecto 3 -->
-    <article class="project-card">
-      <div class="project-image">
-        <img src="./images/snowballing.jpg" alt="Snowballing splash screen">
-      </div>
+      <!-- Project 4 -->
+      <article class="project-card">
+        <div class="project-image placeholder-img">
+          <img src="./images/snowballing.jpg" alt="Ceiba Spaciosa splash screen">
+        </div>
 
-      <div class="project-content">
-        <h4>Snowballing</h4>
-        <p class="project-role">Rol: Gameplay Programmer / System Designer</p>
+        <div class="project-content">
+          <h4>Ceiba Spaciosa</h4>
+          <p class="project-role">Role: Game Designer / UI Programmer</p>
 
-        <p class="project-description">
-          Juego de acción top-down con progresión roguelite donde controlás
-          un golem de nieve en un entorno hostil.
-        </p>
+          <p class="project-description">
+            A first-person 3D game focused on collection, evasion, and spatial reasoning,
+            blending horror and drama elements.
+          </p>
 
-        <ul>
-          <li>Programacion de Gameplay</li>
-          <li>System & Enemy Design</li>
-          <li>Balance de dificultad y progresion</li>
-        </ul>
+          <ul>
+            <li>Mechanics design</li>
+            <li>UI design and implementation</li>
+            <li>Narrative systems design and implementation</li>
+          </ul>
 
-        <a class="project-link" href="https://fuenteki.itch.io/snowballing" target="_blank">
-          Ver en itch.io
-        </a>
-      </div>
-    </article>
+          <a class="project-link" href="#">In development</a>
+        </div>
+      </article>
 
-    <!-- Proyecto 4 (Plantilla) -->
-    <article class="project-card">
-      <div class="project-image placeholder-img">
-        <img src="./images/snowballing.jpg" alt="Snowballing splash screen">
-      </div>
+      <!-- Project 5 -->
+      <article class="project-card">
+        <div class="project-image placeholder-img">
+          <img src="./images/snowballing.jpg" alt="The Pyramid splash screen">
+        </div>
 
-      <div class="project-content">
-        <h4>Ceiba Spaciosa</h4>
-        <p class="project-role">Rol: Game Designer / UI Programmer</p>
-        <p class="project-description">Juego de terror y drama en primera persona donde debes escapar de un parque mientras los miedos y el pasado te persiguen.</p>
+        <div class="project-content">
+          <h4>The Pyramid</h4>
+          <p class="project-role">Role: Gameplay Programmer / Game Designer</p>
 
-        <ul>
-          <li>Diseño de mecanicas</li>
-          <li>Diseño e implementacion de menu</li>
-          <li>Diseño e implementacion de sistemas de narrativa</li>
-        </ul>
+          <p class="project-description">
+            A 2D side-scrolling puzzle and platformer where the player controls four unique
+            characters to advance through an ancient Mayan pyramid and uncover its treasures.
+          </p>
 
-        <a class="project-link" href="#">Proximamente</a>
-      </div>
-    </article>
+          <ul>
+            <li>Mechanics design and programming</li>
+            <li>Level design</li>
+            <li>Narrative and character design</li>
+          </ul>
 
-    <!-- Proyecto 5 (Plantilla) -->
-    <article class="project-card">
-      <div class="project-image placeholder-img">
-        <img src="./images/snowballing.jpg" alt="Snowballing splash screen">
-      </div>
-
-      <div class="project-content">
-        <h4>The Pyramid</h4>
-        <p class="project-role">Rol: Gameplay Programmer / Game Designer</p>
-        <p class="project-description">Juego de puzzles y plataformas en 2D Vista Lateral donde controlas cuatro personajes unicos que deben combinar sus habilidades para avanzar por la antigua piramide Maya y encontrar sus tesoros ocultos.</p>
-
-        <ul>
-          <li>Programacion de Mecanicas</li>
-          <li>Diseño e implementacion de Puzzles</li>
-          <li>Diseño de Niveles</li>
-          <li>Diseño de narrativa y personajes</li>
-        </ul>
-
-        <a class="project-link" href="#">Proximamente</a>
-      </div>
-    </article>
+          <a class="project-link" href="#">In development</a>
+        </div>
+      </article>
 
     </div>
   </section>
 
 
-  <!-- CONTACTO -->
+  <!-- CONTACT -->
   <section class="section contact reveal" id="contact">
-    <h3>Contacto</h3>
+    <h3>Contact</h3>
 
     <div class="contact-capsules">
       <a class="contact-capsule reveal"
@@ -186,29 +213,29 @@
 
       <a class="contact-capsule reveal"
          href="mailto:demianlozano@gmail.com">
-        <span>Gmail</span>
+        <span>Email</span>
         <span class="arrow">→</span>
       </a>
     </div>
   </section>
 
-  <!-- MIS REDES -->
+  <!-- NETWORKS -->
   <section class="section reveal" id="networks">
-    <h3>Mis redes</h3>
+    <h3>My networks</h3>
 
     <div class="networks-grid">
       <a class="card network-card reveal"
          href="https://github.com/Demian-7"
          target="_blank">
         <h4>GitHub</h4>
-        <p>Código, prototipos y herramientas.</p>
+        <p>Code, prototypes, and tools.</p>
       </a>
 
       <a class="card network-card reveal"
          href="https://www.artstation.com/demian_7"
          target="_blank">
         <h4>ArtStation</h4>
-        <p>Contenido visual y artístico.</p>
+        <p>Visual and artistic content.</p>
       </a>
     </div>
   </section>

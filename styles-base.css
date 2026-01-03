@@ -112,6 +112,79 @@ h3 {
   transform: translateY(-0.15rem);
 }
 
+
+
+/* FEATURED PROJECT */
+
+.featured-project {
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.03),
+    rgba(255,255,255,0.01)
+  );
+
+  border-radius: 1.5rem;
+  padding: clamp(2rem, 4vw, 3rem);
+  margin-bottom: clamp(3rem, 6vw, 4rem);
+
+  box-shadow: 0 0 0 1px var(--outline);
+}
+
+
+.featured-media {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.featured-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.featured-video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+.featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+
+
+.featured-content h4 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 0.5rem;
+}
+
+.featured-content .project-description {
+  color: var(--muted);
+  max-width: 65ch;
+  margin-bottom: 1rem;
+}
+
+.featured-content ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
 /* PROJECTS */
 .projects-grid {
   max-width: 75rem;
@@ -161,6 +234,37 @@ h3 {
   display: inline-block;
   margin-top: 0.5rem;
 }
+
+
+/* MEJORAS VISUALES PROJECT CARDS */
+
+.project-content h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.project-description {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.project-content ul {
+  font-size: 0.9rem;
+  padding-left: 1.2rem;
+}
+
+
+.project-image img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.03);
+  filter: brightness(0.9);
+}
+
+
+
 
 /* CONTACT */
 .contact-capsules {
