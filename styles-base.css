@@ -354,6 +354,20 @@ h3 {
   filter: brightness(0.9);
 }
 
+.project-subtitle {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.project-breakdown li {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 
 
 
